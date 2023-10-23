@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font names and families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;600;800;900&family=Poppins:wght@200;300;400;500;600;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Customized CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+</head>
+
+<body class="bg-black">
+    <!-- Table of content -->
+    <!-- 1 Navbar -->
+    <!-- 2 Products -->
+    <!-- Footer -->
+
+    <!-----------  Navbar starts here -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top top-0 ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"><span class="fw-bold  display-6"
+                    style="font-family: 'Mulish', sans-serif;">G</span><span class="display-6 fw-bold"
+                    style="color: var(--blue); font-family: 'Mulish', sans-serif;">.Tech</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" style="background-color: #427ed4;"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light text-hover" aria-current="page" href="index.html"
+                            style="font-family: 'Mulish', sans-serif; font-size: 19px !important;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-hover" href="about.html"
+                            style="font-family: 'Mulish', sans-serif; font-size: 19px !important;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-hover" href="Blog.html"
+                            style="font-family: 'Mulish', sans-serif; font-size: 19px !important;">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"
+                            style="font-family: 'Mulish', sans-serif; font-size: 19px !important;">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item  text-light" href="dell.html"
+                                    style="font-family: 'Mulish', sans-serif;">Dell Laptops</a></li>
+                            <li><a class="dropdown-item  text-light" href="samsung.html"
+                                    style="font-family: 'Mulish', sans-serif;">Samsung Laptops</a></li>
+
+                            <li><a class="dropdown-item  text-light" href="apple.html"
+                                    style="font-family: 'Mulish', sans-serif;">Apple Laptops</a></li>
+
+                            <li><a class="dropdown-item  text-light" href="asus.html"
+                                    style="font-family: 'Mulish', sans-serif;">Asus Laptops</a></li>
+                            <li><a class="dropdown-item  text-light" href="acer.html"
+                                    style="font-family: 'Mulish', sans-serif;">Acer Laptops</a></li>
+
+                            <li><a class="dropdown-item text-hovera text-light text-light" href="lenovo.html"
+                                    style="font-family: 'Mulish', sans-serif;">Lenovo laptops</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary ms-2" href="Login.html"> Login</a>
+                        <i class="bi bi-cart"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-----------  Navbar stops here -->
+
+    <!-- Background image -->
+    <div class="header">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h1> <span>Acer</span> <span class="text-primary"> Laptops</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background image stops here -->
+
+
+
+
+    <!-- Countdown Starts here -->
+       <div class="container col-sm-12 my-3">
+    <div class="contain">
+        <h1 id="headline">Countdown to When All Offers Will End</h1>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Countdown Stops here -->
+
+   
+
+    <!--  Product 1 starts here -->
+
+    <div class="container mt-5 p-4" id="product-list">
+        <h5 class="display-2 fs-2 fw-bold text-light my-3 text-center ">Dell Products
+            <hr>
+        </h5>
+        <div class="row">
+            <!-- 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 gaming round shadow bg-card my-2 ">
+                <div class="product-item">
+                    <img src="Static/Img/acer.jpg" alt="" class=" round  my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer Predator Helios 300</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> A acer predator
+                    </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$980</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal1">Read
+                            more</span></p>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="reg-modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel1">Acer Predator Helios 300
+                                    </h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">High-performance gaming laptop</li>
+                                        <li class="text-light">Powerful Intel Core processors and NVIDIA GeForce GTX
+                                            graphics</li>
+                                        <li class="text-light">High-refresh-rate display for smooth gaming</li>
+                                        <li class="text-light">AeroBlade 3D cooling technology for temperature control
+                                        </li>
+                                        <li class="text-light">RGB-backlit keyboard for customization</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 shadow bg-card gaming my-2 round">
+                <div class="product-item">
+                    <img src="Static/Img/acer1.jpg" alt="" class="round my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer Aspire 5</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> Acer aspire
+                    </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$1000</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal2">Read
+                            more</span></p>
+                    <!-- Modal 2 -->
+                    <div class="modal fade" id="reg-modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel2">Acer Aspire 5</h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">Affordable laptop with solid performance</li>
+                                        <li class="text-light">AMD Ryzen or Intel Core processors</li>
+                                        <li class="text-light">Full HD IPS display for clear visuals</li>
+                                        <li class="text-light">Multiple connectivity options including USB-C</li>
+                                        <li class="text-light">Long battery life for productivity on the go</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 shadow bg-card m-series  my-2 round">
+                <div class="product-item">
+                    <img src="Static/Img/acer3.jpg" alt="" class="round my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer Swift 3</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> Acer swift
+                    </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$1480</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal3">Read
+                            more</span></p>
+                    <!-- Modal 3 -->
+                    <div class="modal fade" id="reg-modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel3">Acer Swift 3 </h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">Lightweight and portable design</li>
+                                        <li class="text-light">Fast-charging battery for on-the-go usage</li>
+                                        <li class="text-light">High-resolution display with thin bezels</li>
+                                        <li class="text-light">Powerful processors for multitasking</li>
+                                        <li class="text-light">Fingerprint reader for enhanced security</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--  Products 1 stops here -->
+
+            <!--  Product 2 starts here -->
+
+            <!-- 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 round shadow long-lasting bg-card my-2 1000">
+                <div class="product-item">
+                    <img src="Static/Img/resap2.jpg" alt="" class=" round  my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer Nitro 5</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> Acer nitro
+                    </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$980</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal4">Read
+                            more</span></p>
+                    <!-- Modal 4 -->
+                    <div class="modal fade" id="reg-modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel4">Acer Nitro 5 </h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">Budget-friendly gaming laptop</li>
+                                        <li class="text-light">AMD Ryzen or Intel Core processors and dedicated NVIDIA
+                                            graphics</li>
+                                        <li class="text-light">Backlit keyboard with customizable lighting</li>
+                                        <li class="text-light">High-refresh-rate display for gaming</li>
+                                        <li class="text-light">Advanced cooling system for gaming performance</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 shadow long-lasting bg-card  my-2 round">
+                <div class="product-item">
+                    <img src="Static/Img/dell6.jpg" alt="" class="round my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer Chromebook Spin 13</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> A chromebook </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$1000</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal5">Read
+                            more</span></p>
+                    <!-- Modal 5 -->
+                    <div class="modal fade" id="reg-modal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel5">Acer Chromebook Spin 13
+                                    </h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">Convertible Chromebook with a 360-degree hinge</li>
+                                        <li class="text-light">Chrome OS for seamless Google integration</li>
+                                        <li class="text-light">Durable aluminum chassis</li>
+                                        <li class="text-light">Stylus support for note-taking and drawing</li>
+                                        <li class="text-light">Long battery life for all-day productivity</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 shadow bg-card m-series  my-2 round">
+                <div class="product-item">
+                    <img src="Static/Img/resap1.jpg" alt="" class="round my-2 img-fluid" width="100%">
+                    <h5 class="text-light fs-5 display-6 text-start fw-normal ">Acer ConceptD 7</h5>
+                    <p class="text-light fs-6 display-6 text-start fw-normal "> A concept D series
+                    </p>
+                    <p class="text-light fs-6 display-6 text-start fw-normal ">$1480</p>
+                    <p><span class="btn btn-outline-primary  my-2">
+                            <i class="bi bi-cart"></i> Add to cart</span> <span class="btn btn-primary  my-2"
+                            data-bs-toggle="modal" data-bs-target="#reg-modal6">Read
+                            more</span></p>
+                    <!-- Modal 6 -->
+                    <div class="modal fade" id="reg-modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog ">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-light" id="exampleModalLabel6">Acer ConceptD 7 </h5>
+                                    <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <li class="text-light">High-end laptop for content creators and professionals
+                                        </li>
+                                        <li class="text-light">Ultra HD 4K display with Pantone validation</li>
+                                        <li class="text-light">Powerful processors and NVIDIA Quadro graphics</li>
+                                        <li class="text-light">Studio-grade color accuracy for design and video work
+                                        </li>
+                                        <li class="text-light">Quiet and efficient cooling system</li>
+
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary text-light"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Products 2 stops here -->
+
+
+
+    <!-- Products stops here -->
+
+
+
+    <!-- Footer starts here -->
+    <div class="bg-grey p-2">
+        <div class="container">
+            <div class="row">
+                <!--First typhography  -->
+                <div class="col-sm-12 col-md-3 my-3 p-2">
+                    <p class="display-5 text-light fs-5 text-start ">Find us</p>
+
+                    <p class="display-6 text-light fs-6 text-normal lh-base text-justify my-3">You can connect and get
+                        updates
+                        through our telegram channel and e-mail.
+                        You can also contact us through the phone number provided below </p>
+                    <p class="my-3"><span><i class="bi bi-telegram"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="text-light display-6 fs-6">+234 9037255013</span></p>
+                    <p class="my-3"><span><i class="bi bi-phone"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="text-light display-6 fs-6">+234 9037255013</span></p>
+                    <p class="my-3"><span><i class="bi bi-envelope"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="text-light display-6 fs-6">jtech62@gmail.com</span></p>
+                </div>
+
+                <!--Second typhography  -->
+                <div class="col-sm-12 col-md-3 p-2 my-3">
+                    <p class="display-5 text-light fs-5 text-start" style="top: 0; 
+                margin-top: 3px;
+                width: 100px;">Quick link</p>
+
+                    <ul>
+                        <li><a href="home.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Home</p>
+                            </a></li>
+                        <li><a href="about.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">About</p>
+                            </a></li>
+                        <li><a href="Blog.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Blog</p>
+                            </a></li>
+                        <li><a href="">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Terms</p>
+                            </a></li>
+
+                    </ul>
+
+                </div>
+
+                <!--Third typhography  -->
+                <div class="col-sm-12 col-md-3 my-3 p-2">
+
+                    <p class="display-5 text-light fs-5 text-start" style=" top: 0; 
+                    margin-top: 3px;
+                    width: 100px;">Products</p>
+
+
+                    <ul>
+                        <li><a href="dell.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Dell Laptops</p>
+                            </a></li>
+                        <li><a href="apple.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Apple Laptops</p>
+                            </a></li>
+                        <li><a href="acer.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Acer Laptops</p>
+                            </a></li>
+                        <li><a href="samsung.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Samsung Laptops</p>
+                            </a></li>
+                        <li><a href="asus.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Asus Laptops</p>
+                            </a></li>
+                        <li><a href="lenovo.html">
+                                <p class="text-light display-6 fs-6 my-3 text-justify">Lenovo Laptops</p>
+                            </a></li>
+
+                    </ul>
+
+
+                </div>
+
+                <!--Fourth typhography  -->
+                <div class="col-sm-12 col-md-3">
+                    <p class="display-5 text-light fs-5 my-3 text-start" style=" top: 0; 
+                    margin-top: 3px;
+                    width: 100px;">Follow us</p>
+                    <p><span><i class="bi bi-twitter"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="display-6 fs-6 text-light">Connect to us through twitter <br>
+                            <a href="https://twitter.com/?lang=en">https://twitter.com/?lang=en</a>
+                        </span></p>
+                    <p><span><i class="bi bi-instagram"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="display-6 fs-6 text-light">Connect to us through instagram <br>
+                            <a href="https://www.instagram.com/">https://www.instagram.com/</a>
+                        </span></p>
+                    <p><span><i class="bi bi-facebook"
+                                style="color: #427ed4; font-size: 19px; margin-right: 5px;"></i></span><span
+                            class="display-6 fs-6 text-light">Connect to us through facebook <br>
+                            <a href="https://www.facebook.com/">https://www.facebook.com/</a>
+                        </span></p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer stops here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

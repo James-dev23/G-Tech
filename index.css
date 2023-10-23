@@ -1,0 +1,356 @@
+:root {
+    --black: #111111;
+    --grey: #1b1c1e;
+    --blue: #427ed4;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h5,h4,h1,h6,a{
+    font-family:  'Mulish', sans-serif;
+}
+hr{
+    width: 30%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.bg-black {
+    background-color: var(--black) !important;
+}
+.text-hover:hover{
+    border-bottom: #427ed4 2px solid;
+    
+}
+.dropdown-menu{
+    background-color: var(--black) !important;
+}
+.dropdown-item:hover{
+color: white !important;
+border-bottom: #427ed4 2px solid;
+}
+
+.dropdown-item:hover{
+    background-color: #427ed4 !important;
+}
+
+.nav-item .bi-cart{
+    color: #427ed4;
+    font-size: 25px;
+    margin-left: 10px;
+    
+
+}
+.nav-item.btn{
+
+    margin-bottom: 10px !important;
+}
+.round{
+    border-radius: 10px;
+}
+.bg-grey{
+    background-color: var(--grey);
+}
+.space{
+    gap: 1px;
+}
+.bg-card:hover{
+    background-color: var(--grey);
+
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center !important;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: center !important;
+}
+
+.bg-image::after{
+    content: "Dell Laptops";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+   background-size: cover;
+}
+.header{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/acerwall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+.samheader{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/samswall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.samheader h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+.appleheader{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/applewall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.appleheader h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+.lenheader{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/lenovowall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lenheader h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+.asusheader{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/asuswall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.asusheader h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+.dellheader{
+    height: 90vh;
+    width: auto !important;
+    background-image: 
+linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.6), rgba(0,0,0,0.4)), 
+    url(Static/Img/dellwall.png);
+   background-position:  center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.dellheader h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white !important;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.bordar{
+    border: #427ed4 solid 3px;
+    border-radius: 5px;
+}
+
+
+.text-border{
+    border-bottom: 1px solid #427ed4 ; 
+    top: 0; 
+    margin-top: 3px;
+    width: 80px;
+}
+.text-justify{
+    text-align: justify !important;
+}
+  
+.my-list:hover{
+    border-bottom: #427ed4 1px solid;
+    width: auto;
+}
+
+
+
+
+
+
+.accordion-body{
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-area {
+	padding-top: 7%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: #427ed4;
+	padding: 200px 98px;
+}
+.left h2 {
+	font-family: poppins;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #1b1c1e;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #427ed4;
+}
+.form-control {
+	border: 2px solid #1b1c1e;
+}
+.right button {
+	border: none;
+	border-radius: 5px;
+	background: #427ed4;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: none !important;
+    border: none;    
+    outline: auto #427ed4 2px;
+}
+input:focus{
+    border: 1px solid #427ed4 !important;
+    outline-color: #427ed4 !important;
+    font-family: 'Poppins', sans-serif;
+}
+label{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/*responsive*/
+
+@media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
+
+.modal-body li{
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
