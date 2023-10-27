@@ -204,7 +204,7 @@ section{
   
   @media all and (max-width: 768px) {
     .contain {
-      font-size: 32px;
+      font-size: 29px;
     }
   
     .contain li {
